@@ -1,0 +1,8 @@
+/* css styles */
+#hero {
+  background-color: #f8f9fa; /* A light, clean gray */
+  color: #212529;           /* A dark, near-black color for high contrast */
+  padding: 60px 20px;       /* Adjusted padding for the new look */
+  text-align: center;
+  border-bottom: 1px solid #dee2e6; /* Adds a subtle line for separation */
+}
