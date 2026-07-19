@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Jiaqi Tong is a PhD student in Biostatistics at Yale School of Public Health researching causal inference, precision medicine, clinical trials, treatment effect heterogeneity, and policy learning."
+      content="Jiaqi Tong is a PhD student in Biostatistics at Yale School of Public Health working at the intersection of causal inference, econometrics, and machine learning."
     />
     <title>Jiaqi Tong | Biostatistics</title>
     <link rel="canonical" href="https://deckardt98.github.io/" />
     <meta name="robots" content="index, follow" />
     <meta
       name="keywords"
-      content="Jiaqi Tong, Yale Biostatistics, causal inference, precision medicine, clinical trials, treatment effect heterogeneity, policy learning, principal stratification"
+      content="Jiaqi Tong, Yale Biostatistics, causal inference, econometrics, machine learning, precision medicine, treatment effect heterogeneity, policy learning, principal stratification, causal mediation"
     />
     <meta name="author" content="Jiaqi Tong" />
     <meta name="google-site-verification" content="-vM050xhVoMSMl07DUJeBdqVTa15P0F1iTuvnYLVpH0" />
@@ -28,7 +28,7 @@
     <meta name="twitter:title" content="Jiaqi Tong | Biostatistics" />
     <meta
       name="twitter:description"
-      content="Causal inference, precision medicine, clinical trials, treatment effect heterogeneity, and policy learning."
+      content="Causal inference, econometrics, machine learning, treatment effect heterogeneity, and policy learning."
     />
     <meta name="twitter:image" content="https://deckardt98.github.io/assets/jiaqi-tong-headshot.jpg" />
     <link rel="stylesheet" href="styles.css" />
@@ -60,6 +60,9 @@
         ],
         "knowsAbout": [
           "Causal inference",
+          "Econometrics",
+          "Machine learning",
+          "Instrumental variable methods",
           "Precision medicine",
           "Clinical trials",
           "Observational studies",
@@ -86,7 +89,9 @@
         <a href="#bio">Bio</a>
         <a href="#research">Research</a>
         <a href="#education">Training</a>
-        <a href="#publications">Selected Publications</a>
+        <a href="#publications">Publications</a>
+        <a href="#preprints">Preprints</a>
+        <a href="#software">Software</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
@@ -114,7 +119,7 @@
             <i data-lucide="building-2" aria-hidden="true"></i>
           </a>
           <a
-            href="https://scholar.google.com/citations?user=la-yH6oAAAAJ&hl=en"
+            href="https://scholar.google.com/citations?user=la-yH6oAAAAJ&amp;hl=en"
             aria-label="Google Scholar profile"
           >
             <i data-lucide="graduation-cap" aria-hidden="true"></i>
@@ -138,12 +143,13 @@
             </div>
           </div>
           <p class="lead">
-            I am a third-year PhD student in Biostatistics at Yale School of Public Health. My
-            research develops causal inference methods, with interests in principal stratification,
-            mediation analysis, treatment effect heterogeneity, semiparametric and nonparametric
-            inference, statistical learning, and the method of sieves. I am especially motivated by
-            applications in precision medicine, clinical trials, observational studies, and social
-            experiments.
+            I am a third-year PhD student in Biostatistics at the Yale School of Public Health. My
+            research lies at the intersection of causal inference, econometrics, and machine learning,
+            with a focus on developing rigorous and practical methods for data-driven decision-making.
+            My current interests include treatment effect heterogeneity, policy learning, causal
+            mediation analysis, principal stratification, and instrumental variable methods. I am
+            particularly motivated by applications in precision medicine, clinical trials,
+            observational studies, and social experiments.
           </p>
           <div class="action-row">
             <a class="primary-action" href="assets/jiaqi-tong-cv.pdf">
@@ -156,7 +162,7 @@
             </a>
             <a
               class="secondary-action"
-              href="https://scholar.google.com/citations?user=la-yH6oAAAAJ&hl=en"
+              href="https://scholar.google.com/citations?user=la-yH6oAAAAJ&amp;hl=en"
             >
               <i data-lucide="book-open" aria-hidden="true"></i>
               <span>Google Scholar</span>
@@ -166,7 +172,7 @@
           <div class="research-snapshot" aria-label="Research snapshot">
             <article>
               <strong>Primary field</strong>
-              <span>Causal inference</span>
+              <span>Causal inference and econometrics</span>
             </article>
             <article>
               <strong>Methods</strong>
@@ -191,33 +197,26 @@
             <article>
               <span class="research-number">01</span>
               <h3>Causal Inference</h3>
-              <p>
-                Methods for estimating causal effects and understanding heterogeneity in complex
-                study designs.
-              </p>
+              <p>Rigorous methods for identification and estimation of causal effects.</p>
             </article>
             <article>
               <span class="research-number">02</span>
-              <h3>Principal Stratification and Mediation</h3>
-              <p>
-                Frameworks for post-randomization complications, indirect effects, and interpretable
-                causal pathways.
-              </p>
+              <h3>Econometrics</h3>
+              <p>Econometric tools for identification, estimation, and policy evaluation.</p>
             </article>
             <article>
               <span class="research-number">03</span>
-              <h3>Clinical Trial Methods</h3>
+              <h3>Treatment Effect Heterogeneity and Policy Learning</h3>
               <p>
-                Statistical tools for clinical trials, observational studies, social experiments, and
-                pragmatic research settings.
+                Methods for estimating heterogeneous effects and learning data-driven treatment
+                policies.
               </p>
             </article>
             <article>
               <span class="research-number">04</span>
-              <h3>Treatment Effect Heterogeneity and Policy Learning</h3>
+              <h3>Principal Stratification and Mediation</h3>
               <p>
-                Methods for characterizing individualized treatment effects and learning policies
-                that guide more targeted decisions.
+                Frameworks for post-treatment events, mediation, and interpretable causal pathways.
               </p>
             </article>
           </div>
@@ -361,6 +360,107 @@
           </div>
         </section>
 
+        <section id="preprints" class="section-block">
+          <div class="section-heading">
+            <span class="section-icon"><i data-lucide="file-text" aria-hidden="true"></i></span>
+            <div>
+              <p class="section-kicker">Current Work</p>
+              <h2>Preprints</h2>
+            </div>
+          </div>
+          <div class="publication-list">
+            <article class="publication-card">
+              <p class="pub-year">2026</p>
+              <div class="pub-body">
+                <p class="pub-type">Treatment heterogeneity</p>
+                <h3>Learning Heterogeneous Treatment Effects Under Principal Stratification</h3>
+                <p>Tong J, Li F. <em>arXiv preprint arXiv:2606.29076</em>.</p>
+                <div class="pub-links">
+                  <a href="https://arxiv.org/abs/2606.29076">arXiv</a>
+                </div>
+              </div>
+            </article>
+            <article class="publication-card">
+              <p class="pub-year">2026</p>
+              <div class="pub-body">
+                <p class="pub-type">Causal mediation</p>
+                <h3>
+                  Causal Mediation in Cluster-Randomized Trials With Multiple Mediators:
+                  Spillover-Aware Decomposition, Identification, and Semiparametric Efficient Inference
+                </h3>
+                <p>Tong J, Cheng C, Li F. <em>arXiv preprint arXiv:2604.10710</em>.</p>
+                <div class="pub-links">
+                  <a href="https://arxiv.org/abs/2604.10710">arXiv</a>
+                </div>
+              </div>
+            </article>
+            <article class="publication-card">
+              <p class="pub-year">2025</p>
+              <div class="pub-body">
+                <p class="pub-type">Causal estimands</p>
+                <h3>On the Permutation Invariance Principle for Causal Estimands</h3>
+                <p>Tong J, Li F. <em>arXiv preprint arXiv:2510.11863</em>.</p>
+                <div class="pub-links">
+                  <a href="https://arxiv.org/abs/2510.11863">arXiv</a>
+                </div>
+              </div>
+            </article>
+            <article class="publication-card">
+              <p class="pub-year">2025</p>
+              <div class="pub-body">
+                <p class="pub-type">Principal stratification</p>
+                <h3>Semiparametric Principal Stratification Analysis Beyond Monotonicity</h3>
+                <p>Tong J, Kahan B, Harhay MO, Li F. <em>arXiv preprint arXiv:2501.17514</em>.</p>
+                <div class="pub-links">
+                  <a href="https://arxiv.org/abs/2501.17514">arXiv</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="software" class="section-block">
+          <div class="section-heading">
+            <span class="section-icon"><i data-lucide="code-2" aria-hidden="true"></i></span>
+            <div>
+              <p class="section-kicker">Open Source</p>
+              <h2>Software &amp; R Packages</h2>
+            </div>
+          </div>
+          <div class="card-grid software-grid">
+            <article class="info-card software-card">
+              <span class="card-icon"><i data-lucide="package" aria-hidden="true"></i></span>
+              <p class="software-type">R package</p>
+              <h3>PSor</h3>
+              <p class="software-title">Semiparametric Principal Stratification Analysis Beyond Monotonicity</p>
+              <p>
+                Estimates principal causal effects under sensitivity models that relax monotonicity,
+                with doubly robust and debiased machine-learning inference.
+              </p>
+              <code class="package-install">install.packages("PSor")</code>
+              <div class="pub-links">
+                <a href="https://CRAN.R-project.org/package=PSor">CRAN</a>
+                <a href="https://github.com/deckardt98/PSor">GitHub</a>
+              </div>
+            </article>
+            <article class="info-card software-card">
+              <span class="card-icon"><i data-lucide="package" aria-hidden="true"></i></span>
+              <p class="software-type">R package</p>
+              <h3>MRStdCRT</h3>
+              <p class="software-title">Model-Robust Standardization in Cluster-Randomized Trials</p>
+              <p>
+                Estimates marginal treatment effects using model-robust standardization for
+                cluster-randomized trials.
+              </p>
+              <code class="package-install">install.packages("MRStdCRT")</code>
+              <div class="pub-links">
+                <a href="https://CRAN.R-project.org/package=MRStdCRT">CRAN</a>
+                <a href="https://github.com/deckardt98/MRStdCRT">GitHub</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
         <section id="contact" class="section-block contact-block">
           <div class="section-heading">
             <span class="section-icon"><i data-lucide="mail" aria-hidden="true"></i></span>
@@ -378,7 +478,7 @@
               <i data-lucide="building-2" aria-hidden="true"></i>
               <span>Yale School of Medicine Profile</span>
             </a>
-            <a href="https://scholar.google.com/citations?user=la-yH6oAAAAJ&hl=en">
+            <a href="https://scholar.google.com/citations?user=la-yH6oAAAAJ&amp;hl=en">
               <i data-lucide="graduation-cap" aria-hidden="true"></i>
               <span>Google Scholar</span>
             </a>
