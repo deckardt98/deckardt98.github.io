@@ -535,7 +535,20 @@ button:focus-visible {
   flex-direction: column;
 }
 
+.software-featured {
+  grid-column: 1 / -1;
+  min-height: 280px;
+}
+
+.software-featured::before {
+  background: var(--copper);
+}
+
 .software-card:nth-child(2)::before {
+  background: var(--yale);
+}
+
+.software-card:nth-child(3)::before {
   background: var(--sage);
 }
 
@@ -858,6 +871,10 @@ button:focus-visible {
   .research-snapshot,
   .contact-grid {
     grid-template-columns: 1fr;
+  }
+
+  .software-grid .package-install {
+    font-size: 0.82rem;
   }
 
   .news-item {
